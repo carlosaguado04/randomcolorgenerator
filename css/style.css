@@ -15,7 +15,8 @@ body {
   align-items: center; }
   .nav-bar a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    mix-blend-mode: difference; }
   .nav-bar svg {
     margin-left: 20px;
     fill: white; }
@@ -27,34 +28,37 @@ body {
   justify-content: center;
   align-items: center; }
   .main h1 {
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 1em 2em;
-    color: white; }
+    color: white;
+    mix-blend-mode: difference; }
   .main button {
     margin-top: 50px;
-    background: black;
-    border: 1px solid white;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
     padding: 1em 2em;
     font-family: "MuseoModerno", cursive;
     font-size: 20px;
     cursor: pointer;
-    transition: 0.3s ease;
-    outline: none; }
+    outline: none;
+    mix-blend-mode: difference; }
     .main button svg {
-      fill: white; }
+      fill: white;
+      mix-blend-mode: difference; }
   .main button:hover {
+    background-color: white;
+    mix-blend-mode: difference;
     box-shadow: 0 0 2px 2px white; }
 
 footer {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end; }
+  align-items: flex-end;
+  color: white;
+  mix-blend-mode: difference; }
   footer a {
-    color: black;
-    outline: none; }
+    color: white;
+    outline: none;
+    mix-blend-mode: difference; }
   footer a:hover {
     color: orange; }
 
