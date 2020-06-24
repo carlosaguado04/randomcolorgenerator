@@ -1,80 +1,92 @@
+@font-face {
+  font-family: moon-regular;
+  src: url(/assets/fonts/moon-regular.otf);
+}
+@font-face {
+  font-family: moon-bold;
+  src: url(/assets/fonts/moon-bold.otf);
+}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "MuseoModerno", cursive;
-    overflow: hidden;
-    background-color: #392f5a;
+  font-family: "moon-regular";
+  overflow: hidden;
+  background-color: #392f5a;
 }
 
 .nav-bar {
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "moon-bold";
+  letter-spacing: 5px;
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 
-    a {
-        color: white;
-        text-decoration: none;
-         mix-blend-mode: difference;
-    }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-    svg {
-        margin-left: 20px;
-        fill: white;
-    }
+  svg {
+    margin-left: 20px;
+    fill: white;
+  }
 }
 .main {
-    min-height: 85vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    h1 {
-        
-        color: white;
-        mix-blend-mode: difference;
+  h1 {
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em 2em;
+  }
+
+  button {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+    font-family: "MuseoModerno", cursive;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    mix-blend-mode: difference;
+
+    svg {
+      fill: white;
+      mix-blend-mode: difference;
     }
+  }
 
-    button {
-        margin-top: 50px;
-        background: rgba(0, 0, 0, 0.0);
-       border: 1px solid transparent;
-        font-family: "MuseoModerno", cursive;
-        font-size: 20px;
-        cursor: pointer;
-        outline: none;
-         mix-blend-mode: difference;
-
-        svg {
-            fill: white;
-             mix-blend-mode: difference;
-        }
-    }
-
-    button:hover {
-       
-    }
+  button:hover {
+  }
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    color: white;
-    mix-blend-mode: difference;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
 
-    a {
-        color: white;
-        outline: none;
-        mix-blend-mode: difference;
-    }
-    a:hover {
-        color: orange;
-    }
+  a {
+    color: white;
+    outline: none;
+  }
+  a:hover {
+    color: orange;
+  }
 }
