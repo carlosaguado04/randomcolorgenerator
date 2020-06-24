@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   overflow: hidden;
   background-color: #392f5a;
   height: 100vh; }
