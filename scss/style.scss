@@ -7,7 +7,7 @@
 body {
     font-family: "MuseoModerno", cursive;
     overflow: hidden;
-    background-color: #392F5A;
+    background-color: #392f5a;
 }
 
 .nav-bar {
@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: -1px 0 5px -1px white;
-    
-    a{
+
+    a {
         color: white;
         text-decoration: none;
     }
@@ -25,7 +25,6 @@ body {
     svg {
         margin-left: 20px;
         fill: white;
-     
     }
 }
 .main {
@@ -34,8 +33,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    h1{
+
+    h1 {
         background-color: black;
         border: 1px solid white;
         border-radius: 10px;
@@ -58,8 +57,6 @@ body {
         svg {
             fill: white;
         }
-        
-        
     }
 
     button:hover {
@@ -71,7 +68,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-  
+
     a {
         color: black;
         outline: none;
