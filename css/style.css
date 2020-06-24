@@ -1,13 +1,10 @@
-@font-face {
-  font-family: rounded;
-  src: url(./assets/fonts/Rounded.ttf); }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: "rounded";
+  font-family: Montserrat;
   overflow: hidden;
   background-color: #392f5a; }
 
