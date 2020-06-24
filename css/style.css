@@ -1,16 +1,13 @@
 @font-face {
-  font-family: moon-regular;
-  src: url(/assets/fonts/moon-regular.otf); }
-@font-face {
-  font-family: moon-bold;
-  src: url(/assets/fonts/moon-bold.otf); }
+  font-family: rounded;
+  src: url(./assets/fonts/Rounded.ttf); }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: "moon-regular";
+  font-family: "rounded";
   overflow: hidden;
   background-color: #392f5a; }
 
@@ -19,7 +16,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "moon-bold";
   letter-spacing: 5px;
   width: 50%;
   margin: auto;
